@@ -19,15 +19,9 @@ for row in data:
             #isot aakkoset on ord()-38
             if letter.isupper():
                 s += ord(letter)-38
-                #print(ord(letter)-38)
-                print(row[:int((len(row))/2)], ' ' ,row[int((len(row))/2):])
-                print(letter, 'upper')
                 break
             else:
                 s += ord(letter)-96
-                #print(ord(letter)-96)
-                print(row[:int((len(row))/2)], ' ' ,row[int((len(row))/2):])
-                print(letter, 'lower')
                 break
             
 print(s)
