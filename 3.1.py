@@ -14,7 +14,7 @@ for row in data:
     for letter in row[:int((len(row))/2)]:
         if row[int((len(row))/2):].find(letter) != -1:
         
-            #odr on hieno metodi, joka asciilla on jo numero
+            #odr on hieno funktio, joka asciilla on jo numero
             #pikkuaakkoset on ord()-96
             #isot aakkoset on ord()-38
             if letter.isupper():
