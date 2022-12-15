@@ -6,7 +6,7 @@ Created on Wed Dec 14 20:33:37 2022
 """
 
 data = open('3.txt', 'r')
-#delete \n at the time of reading file
+#delete \n at the time of reading file 
 data = [x.strip() for x in data.readlines()]
 
 s = 0
